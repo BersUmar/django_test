@@ -1,0 +1,48 @@
+[
+  {
+    "model": "dogs.breed",
+    "pk": 1,
+    "fields": {
+      "title": "овчарка",
+      "overview": "немецкая порода собаки"
+    }
+  },
+  {
+    "model": "dogs.breed",
+    "pk": 2,
+    "fields": {
+      "title": "такса",
+      "overview": "миниатюрная порода"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 1,
+    "fields": {
+      "title": "Рекс",
+      "breed": 1,
+      "image": "",
+      "birthday": "2023-12-04"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 2,
+    "fields": {
+      "title": "Молли",
+      "breed": 2,
+      "image": "",
+      "birthday": "2023-12-04"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 3,
+    "fields": {
+      "title": "лесси",
+      "breed": 2,
+      "image": "",
+      "birthday": "2023-12-04"
+    }
+  }
+]
